@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Transport Revenue Collection</title>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <h2>Transport Revenue Collection</h2>
+
+            <form id="revenueForm" action="submit_revenue.php" method="post">
+                <label for="serviceType">Service Type:</label>
+                <select id="serviceType" name="serviceType">
+                    <option value="bus">Bus</option>
+                    <option value="lorry">Lorry</option>
+                    <option value="matatu">Matatu</option>
+                    <option value="taxi">Taxi</option>
+                    <option value="tuktuk">Tuktuk</option>
+                    <option value="motorbike">Motorbike</option>
+                </select>
+
+                <p></p>
+
+                <label for="number plate">Number Plate:</label>
+                <input type="text" id="input-box" name="number plate" placeholder="Enter Number Plate" required>
+
+                <label for="month">Month:</label>
+                <input type="text" id="input-box" name="month" placeholder="Enter Month" required>
+
+                <label for="payment mode">Payment Mode:</label>
+                <input type="text" id="input-box" name="payment mode" placeholder="Select Payment Mode" required>
+
+                <label for="amount">Amount:</label>
+                <input type="number" id="input-box" name="amount" placeholder="Enter amount" required>
+
+
+                <input type="submit" value="Submit"
+
+            </form>
+
+
+
+        </div>
+
+
+    </body>
+
+</html>
